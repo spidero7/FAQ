@@ -5,6 +5,6 @@ buttons.forEach(function (button) {
     button.addEventListener('click', function (e) {
         const question = e.currentTarget.parentElement.parentElement;
         console.log(question);
-        question.classList.toggle('show-text');
+        question.classList.remove('text-active');
     });
 })

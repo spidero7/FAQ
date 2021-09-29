@@ -235,12 +235,12 @@ Questions
   display: none;
 }
 
-.minus-icon {
-  display: none;
-}
-
 .show-text .question-text {
   display: block;
+}
+
+.minus-icon {
+  display: none;
 }
 
 .show-text .minus-icon {
@@ -248,5 +248,5 @@ Questions
 }
 
 .show-text .plus-icon {
-  display: none;
+  di
 }

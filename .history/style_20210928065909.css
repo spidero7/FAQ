@@ -231,11 +231,7 @@ Questions
   margin-bottom: 0;
 }
 
-.question-text {
-  display: none;
-}
-
-.minus-icon {
+/* .question-text {
   display: none;
 }
 
@@ -243,10 +239,10 @@ Questions
   display: block;
 }
 
-.show-text .minus-icon {
-  display: inline;
-}
-
-.show-text .plus-icon {
+.minus-icon {
   display: none;
+} */
+
+.text-active {
+  display: ;
 }

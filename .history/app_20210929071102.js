@@ -1,0 +1,11 @@
+const plusButton = document.querySelectorAll('.plus-icon');
+const questionText = document.querySelector('.question-text');
+
+function expandText(e) {
+    e.classList.remove('text-active');
+    console.log(e.currectTarget)
+}
+
+Array.from(plusButton).forEach(button => {
+    button.addEventListener('click', expandText)
+});

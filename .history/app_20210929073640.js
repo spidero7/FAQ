@@ -3,8 +3,8 @@ const buttons = document.querySelectorAll('.question-btn');
 
 buttons.forEach(function (button) {
     button.addEventListener('click', function (e) {
-        const question = e.currentTarget.parentElement.parentElement;
+        const question = e.currentTarget.parentElement.parentElement.parentElement;
         console.log(question);
-        question.classList.toggle('show-text');
+        question.classList.remove('text-active');
     });
 })

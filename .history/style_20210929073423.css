@@ -231,17 +231,18 @@ Questions
   margin-bottom: 0;
 }
 
-.question-text {
-  display: none;
-}
-
-.minus-icon {
+.text-active {
   display: none;
 }
 
 .show-text .question-text {
   display: block;
 }
+
+.minus-icon {
+  display: none;
+}
+
 
 .show-text .minus-icon {
   display: inline;

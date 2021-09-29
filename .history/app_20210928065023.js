@@ -1,0 +1,3 @@
+const plusButton = document.querySelector('plus-icon');
+
+plusButton
