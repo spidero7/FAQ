@@ -7,13 +7,7 @@ questions.forEach(question => {
     //console.log(button);
     button.addEventListener('click', function () {
 
-        questions.forEach(item => {
-            //console.log(item);
-            if (item !== question) {
-                item.classList.remove('show-text');
-            }
-        });
-
+        
         question.classList.toggle('show-text');
     });
 });

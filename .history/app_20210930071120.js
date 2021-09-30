@@ -2,7 +2,7 @@
 const questions = document.querySelectorAll('.question');
 
 questions.forEach(question => {
-    //console.log(question);
+    console.log(question);
     const button = question.querySelector('.question-btn');
     //console.log(button);
     button.addEventListener('click', function () {

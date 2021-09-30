@@ -6,17 +6,9 @@ questions.forEach(question => {
     const button = question.querySelector('.question-btn');
     //console.log(button);
     button.addEventListener('click', function () {
-
-        questions.forEach(item => {
-            //console.log(item);
-            if (item !== question) {
-                item.classList.remove('show-text');
-            }
-        });
-
-        question.classList.toggle('show-text');
-    });
-});
+        question.classList.toggle('show')
+    })
+})
 
 // Traversing the DOM
 // const buttons = document.querySelectorAll('.question-btn');

@@ -2,13 +2,13 @@
 const questions = document.querySelectorAll('.question');
 
 questions.forEach(question => {
-    //console.log(question);
+    console.log(question);
     const button = question.querySelector('.question-btn');
     //console.log(button);
     button.addEventListener('click', function () {
 
         questions.forEach(item => {
-            //console.log(item);
+            console.log(item);
             if (item !== question) {
                 item.classList.remove('show-text');
             }
